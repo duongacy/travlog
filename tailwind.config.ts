@@ -64,7 +64,7 @@ const config: Config = {
       },
     }
   },
-  plugins: [require('@tailwindcss/forms'), require('@shrutibalasa/tailwind-grid-auto-fit'),
+  plugins: [require('@tailwindcss/forms'),
   ],
 };
 export default config;
