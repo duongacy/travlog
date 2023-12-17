@@ -121,12 +121,12 @@ function Parner(props: React.DetailedHTMLProps<React.HTMLAttributes<HTMLDivEleme
 
 function Service(props: React.DetailedHTMLProps<React.HTMLAttributes<HTMLDivElement>, HTMLDivElement>) {
   return <div {...props}>
-    <div className='flex py-32px laptop:py-64px gap-y-32px laptop:gap-y-64px flex-col desktop:flex-row desktop:items-center overflow-x-hidden'>
-      <div className='flex flex-col text-center min-w-444px desktop:text-start'>
+    <div className='flex py-32px laptop:py-64px gap-y-32px laptop:gap-y-64px flex-col desktop:flex-row desktop:items-center overflow-x-hidden '>
+      <div className='flex flex-col text-center laptop:min-w-444px desktop:text-start'>
         <p className='text-[24px] text-[#F85E9F] uppercase font-bold'>Services</p>
         <p className='text-[40px] font-bold'>Our top value categories for you</p>
       </div>
-      <div className='flex flex-col gap-16px laptop:flex-row overflow-x-auto pb-16px'>
+      <div className='flex flex-col gap-16px laptop:flex-row laptop:overflow-x-auto pb-16px'>
         <div className='border p-32px flex flex-col gap-y-32px rounded-32px text-center items-center desktop:min-w-444px' >
           <Image width={64} height={64} src={'/service_01.svg'} alt='' />
           <div className='flex flex-col gap-32px'>
